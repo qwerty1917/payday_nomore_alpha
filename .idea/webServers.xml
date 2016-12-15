@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10cfb9f3-10e3-4c17-b03d-6735cb3cc179" name="payday_nomore_remote" url="http://ec2-52-78-119-37.ap-northeast-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-52-78-119-37.ap-northeast-2.compute.amazonaws.com" port="22" privateKey="$PROJECT_DIR$/../payday_nomore.pem" rootFolder="/home/ec2-user" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
